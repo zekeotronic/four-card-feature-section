@@ -30,14 +30,16 @@
     <script src="./src/js/main.js"></script>
     <title>Frontend Mentor | Four card feature section</title>
   </head>
-  <body class="bg-primary-whhite text-pale-black px-8">
-    <main>
+  <body class="bg-primary-white text-pale-black px-8">
+    <main class="flex flex-col items-center">
       <section class="mt-20 px-[7px]">
         <h1 class="flex flex-col gap-[1px] justify-center items-center">
-          <span class="font-extralight tracking-[0.17px] text-2xl"
+          <span
+            class="font-extralight tracking-[0.17px] text-2xl md:text-3xl lg:text-4xl"
             >Reliable, efficient delivery</span
           >
-          <span class="font-semibold tracking-[0.17px] text-2xl"
+          <span
+            class="font-semibold tracking-[0.17px] text-2xl md:text-3xl lg:text-4xl"
             >Powered by Technology</span
           >
         </h1>
@@ -50,9 +52,11 @@
           points to ensure that your project is successful
         </p>
       </section>
-      <section class="mt-[76px] grid gap-6 mb-[78px]">
+      <section
+        class="mt-[76px] grid gap-6 mb-[78px] md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-4 lg:gap lg:content-center lg:justify-items-center lg:w-[1110px]"
+      >
         <div
-          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-teal shadow-card flex flex-col justify-between"
+          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-teal shadow-card flex flex-col justify-between lg:col-start-1 lg:col-span-1 lg:row-start-2 lg:row-span-2 lg:max-w-[350px]"
         >
           <div class="w-full">
             <h2 class="font-semibold text-[1.5rem]">Supervisor</h2>
@@ -69,7 +73,7 @@
           </div>
         </div>
         <div
-          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-red shadow-card flex flex-col justify-between"
+          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-red shadow-card flex flex-col justify-between lg:col-start-2 lg:col-span-1 lg:row-start-1 lg:row-span-2 lg:max-w-[350px]"
         >
           <div class="w-full">
             <h2 class="font-semibold text-[1.5rem]">Team Builder</h2>
@@ -87,7 +91,7 @@
           </div>
         </div>
         <div
-          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-orange shadow-card flex flex-col justify-between"
+          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-orange shadow-card flex flex-col justify-between lg:col-start-2 lg:col-span-1 lg:row-start-3 lg:row-span-2 lg:max-w-[350px]"
         >
           <div class="w-full">
             <h2 class="font-semibold text-[1.5rem]">Karma</h2>
@@ -104,7 +108,7 @@
           </div>
         </div>
         <div
-          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-blue shadow-card flex flex-col justify-between"
+          class="card h-[222px] p-[28px] bg-secondary-white rounded-lg border-t-[4px] border-solid border-pale-blue shadow-card flex flex-col justify-between lg:col-start-3 lg:col-span-1 lg:row-start-2 lg:row-span-2 lg:max-w-[350px]"
         >
           <div class="w-full">
             <h2 class="font-semibold text-[1.5rem]">Calculator</h2>
